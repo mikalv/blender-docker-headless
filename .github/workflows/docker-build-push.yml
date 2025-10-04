@@ -20,13 +20,10 @@ jobs:
     strategy:
       matrix:
         blender_version:
-          - { version: "3.4.1", short: "3.4" }
-          - { version: "3.5.1", short: "3.5" }
           - { version: "3.6.18", short: "3.6" }
-          - { version: "4.0.2", short: "4.0" }
-          - { version: "4.1.1", short: "4.1" }
           - { version: "4.2.4", short: "4.2" }
-          - { version: "4.3.0", short: "4.3" }
+          - { version: "4.4.1", short: "4.4" }
+          - { version: "4.5.3", short: "4.5" }
         ubuntu_cuda_version:
           - { version: "11.7.1-cudnn8-devel-ubuntu20.04", short: "cuda11.7.1-ubuntu20.04" }
           - { version: "11.7.1-cudnn8-devel-ubuntu22.04", short: "cuda11.7.1-ubuntu22.04" }
