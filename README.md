@@ -9,23 +9,23 @@
 ## Usage
 
 ```bash
-docker run -it --rm --gpus all -v $(pwd):/workspace -w /workspace meihaiyi/blender:blender-3.6-cuda11.7.1-ubuntu20.04
+docker run -it --rm --gpus all -v $(pwd):/workspace -w /workspace meeh/blender:blender-4.5-cuda11.7.1-ubuntu20.04
 ```
 
 ## Build
 
 ```bash
-docker build -t meihaiyi/blender:blender-3.6-cuda11.7.1-ubuntu20.04 . --build-arg BLENDER_VERSION=3.6.18 --build-arg UBUNTU_CUDA_VERSION=11.7.1-cudnn8-devel-ubuntu20.04
+docker build -t meeh/blender:blender-4.5-cuda11.7.1-ubuntu20.04 . --build-arg BLENDER_VERSION=4.5.3 --build-arg UBUNTU_CUDA_VERSION=11.7.1-cudnn8-devel-ubuntu20.04
 ```
 
 ## Test
 
 ```bash
-docker run --rm --gpus all -v $(pwd):/workspace -w /workspace meihaiyi/blender:blender-3.6-cuda11.7.1-ubuntu20.04 blender -b --python tests/render_eevee.py
+docker run --rm --gpus all -v $(pwd):/workspace -w /workspace meeh/blender:blender-4.5-cuda11.7.1-ubuntu20.04 blender -b --python tests/render_eevee.py
 ```
 
 ```bash
-docker run --rm --gpus all -v $(pwd):/workspace -w /workspace meihaiyi/blender:blender-3.6-cuda11.7.1-ubuntu20.04 blender -b --python tests/render_cycles.py
+docker run --rm --gpus all -v $(pwd):/workspace -w /workspace meeh/blender:blender-4.5-cuda11.7.1-ubuntu20.04 blender -b --python tests/render_cycles.py
 ```
 
 ## Key
