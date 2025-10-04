@@ -1,6 +1,6 @@
 # Blender Docker Headless
 
-[![actions](https://github.com/haiyimei/blender-docker-headless/actions/workflows/docker-build-push.yml/badge.svg)](https://github.com/haiyimei/blender-docker-headless/actions/workflows/docker-build-push.yml)
+[![Docker Build](https://github.com/mikalv/blender-docker-headless/actions/workflows/docker-build-push.yml/badge.svg)](https://github.com/mikalv/blender-docker-headless/actions/workflows/docker-build-push.yml)
 [![docker](https://img.shields.io/docker/pulls/meihaiyi/blender)](https://hub.docker.com/r/meihaiyi/blender)
 [![license](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
